@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+
+:root {
+  --bgCol: #3f3d4d;
+  --textCol: #fff;
+  --contentCol: #5e597e;
+}
+
+body {
+  transition: all ease 0.5s;
+  margin: 0;
+  background-color: var(--bgCol);
+  color: var(--textCol);
+  height: 100vh;
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  font-family: "JetBrains Mono";
+  text-align: center;
+}
+
+.content {
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  background-color: var(--contentCol);
+  margin: 1rem;
+  padding: 2rem 5rem;
+  border-radius: 2rem;
+  box-shadow: 0 0 1rem 0 #000;
+}
+
+.time-section {
+  display: flex;
+  align-items: baseline;
+}
+
+.time-section > h3 {
+  margin-left: 1rem;
+}
+
+.date-section {
+  text-align: center;
+}
+
+.btns > svg {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
